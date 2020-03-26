@@ -4,7 +4,7 @@ const hero = Vue.component("hero", {
     <div class="hero-body">
         <div class="container">
             <h1 class="title">
-                Barco case
+                Barco case notes
             </h1>
             <h2 class="subtitle" style=" font-style:italic">
                 additional notes

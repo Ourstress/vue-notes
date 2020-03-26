@@ -4,7 +4,7 @@ const hero = Vue.component("hero", {
     <div class="hero-body">
         <div class="container">
             <h1 class="title">
-                Barco case notes
+                Barco case note
             </h1>
             <h2 class="subtitle" style=" font-style:italic">
                 additional notes
@@ -33,13 +33,14 @@ const contentItems1 = Vue.component("content-item", {
         \n- shifted from external consultants to this team
         `
       ),
-      sapVim:window.marked(
+      sapVim: window.marked(
         `A slidedeck by [Barco's consultants on SAP Vim (automated processing of invoices)](https://www.slideshare.net/DelawareConsulting/gaining-efficiency-at-barco-with-sap-vendor-invoice-management) highlights:
         \n- how SAP Vim improved operational efficiency, transparency and reduced costs
         \n- by implementing paperless processing (eg. mandatory scanning of all invoices), reducing data entry / typo errors, routing invoice approval through ERP system, end-to-end monitoring and using out-of-the-box processes to reduce custom development costs
         \n- how implementing SAP Vim requires cross-functional exchange with other departments like logistics, reporting etc
         \n- how SAP Vim further impacts the business by facilitating better financial forecasting
-        `)
+        `
+      )
     };
   },
   template: `
@@ -75,16 +76,18 @@ const contentItems2 = Vue.component("content-item", {
         \n- development of business objectives map backed by financial values that structures the investment objectives per business process
         \n- updated business objectives map serves as dashboard for top management to review the investment progress
         \n![business objectives map](https://d3i71xaburhd42.cloudfront.net/fb6e5f4da4740e63c02bcc5399dcfee2ed62ab0e/6-Figure5-1.png)
-        `),
-        notes: window.marked(
-          `[Prof. Dr. Wim Van Grembergen's notes](https://www.security-congres.nl/download/?id=16826180) contains useful diagrams such as:
+        `
+      ),
+      notes: window.marked(
+        `[Prof. Dr. Wim Van Grembergen's notes](https://www.security-congres.nl/download/?id=16826180) contains useful diagrams such as:
           \n- how to structure IT budget
           \n![IT budget](https://user-images.githubusercontent.com/3660908/73806664-12764a80-4805-11ea-8eb8-325a9d093ec4.png)
           \n- classification of information systems in digital transformation
           \n![](https://user-images.githubusercontent.com/3660908/73806910-caa3f300-4805-11ea-9bc0-5b885a504484.png)
           \n- example mapping of benefits from integrated CRM
           \n![](https://user-images.githubusercontent.com/3660908/73807094-4140f080-4806-11ea-8d07-30fc7b23c1f4.png)
-          `)
+          `
+      )
     };
   },
   template: `
